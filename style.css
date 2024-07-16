@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+}
+
+/* .div1 {
+    background-color: aqua;
+    height: 190px;
+    z-index: -1;
+    position: relative;
+    width:100%
+}
+
+.div2 {
+    position: relative;
+    z-index: -1;
+    background-color: red;
+    width:100%
+} */
+
+.bgImg{
+    background-image: url(Images/bg.jpg);
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image within the div */
+    height: 100vh;
+}
+
+/* navbar */
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 30px 20px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    margin-left: 15px; /* Adjust spacing between links */
+    text-decoration: none;
+    padding: 5px 20px;
+    display: inline-block;
+    font-weight: bold;
+    color: #21282E;
+    font-size: 16px;
+}
+
+.webLogo {
+    max-height: 50px;
+}
+
+.jobPortalBtn {
+    background-color: #43a724;
+    border: 2px solid #43a724;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 13px 20px;
+    display: inline-block;
+    min-width: 150px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.interneeLoginBtn {
+    background-color: transparent;
+    border: 2px solid #43a724;
+    color: #43a724;
+    border-radius: 50px;
+    padding: 13px 20px;
+    display: inline-block;
+    min-width: 150px;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.04em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/* Section 1 */
+.aligning{
+    z-index: 100;
+    width: 100%;
+    padding-top: 35px;
+    top: 0;
+    left: 0;
+}
+.sec1Heading{
+    font-size: 54px;
+    letter-spacing: -0.05em;
+    font-weight: bold;
+}
+.typing{
+    font-size: 54px;
+    color:#43a724;
+    border-right: .15rem solid #43a724;
+    width: 0;
+    flex-wrap: wrap;
+    padding-right: 30px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 6s steps(20, end) forwards;
+}
+@keyframes typing{
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 100%;
+    }
+}
+.para{
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 150%;
+}
+.sec1Logo {
+    height: 60px; /* Adjust the height as needed */
+    width: auto;  /* Maintain aspect ratio */
+    margin: 10px; /* Optional: Add some margin between images */
+}
+.sec1Spantxt{
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+    color: #22282E;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
