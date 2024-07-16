@@ -6,26 +6,10 @@
     font-family: "Inter";
 }
 
-/* .div1 {
-    background-color: aqua;
-    height: 190px;
-    z-index: -1;
-    position: relative;
-    width:100%
-}
-
-.div2 {
-    position: relative;
-    z-index: -1;
-    background-color: red;
-    width:100%
-} */
-
 .bgImg{
     background-image: url(Images/bg.jpg);
-    background-size: cover; /* Ensures the image covers the entire div */
-    background-position: center; /* Centers the image within the div */
-    height: 100vh;
+    background-size: cover; 
+    background-position: center; 
 }
 
 /* navbar */
@@ -40,7 +24,6 @@
     top: 0;
     left: 0;
 }
-
 .nav-links {
     display: flex;
     align-items: center;
@@ -59,7 +42,6 @@
 .webLogo {
     max-height: 50px;
 }
-
 .jobPortalBtn {
     background-color: #43a724;
     border: 2px solid #43a724;
@@ -94,11 +76,8 @@
     cursor: pointer;
 }
 
-
-
 /* Section 1 */
 .aligning{
-    z-index: 100;
     width: 100%;
     padding-top: 35px;
     top: 0;
@@ -152,3 +131,32 @@
     align-items: center;
 }
 
+
+/* section2 */
+.section2Icon {
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 68px;
+    height: 68px;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2heading{
+    font-size: 48px;
+    letter-spacing: -2px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: normal;
+    color: #21282E;
+}
+.sec2para{
+    font-size: 20px;
+    letter-spacing: -0.3px;
+    line-height: 160%;
+    color: #4A5056;
+    margin-bottom: 30px;
+}
