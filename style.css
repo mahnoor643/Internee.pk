@@ -168,7 +168,8 @@
 .carouselDiv{
     background-color: #43a724;
     padding: 10px;
-    border-radius: 15px;
+    box-shadow: 0px 16px 24px -10px rgba(207, 138, 0, 0.6);
+    border-radius: 20px;
 }
 .carouselTxt{
     display:inline-block;
@@ -203,4 +204,102 @@
     color: #fff;
     text-align: center;
     padding: 7px;
+}
+.carouselBottomTxt{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+}
+
+/* Section3 */
+.sec3Para{
+    color: #717275;
+    font-size: 20px;
+    font-weight: 300;
+}
+.sec3Para strong{
+    color: #717275;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sec3Btn{
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+.sec3Btn:hover{
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #8c52fe;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+/* cards */
+.cardTitle{
+    border-bottom: 1px solid #b2b3b4;
+}
+div.card{
+    margin: 15px;
+}
+div.card:hover {
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+/* blogs */
+.blogBgColor{
+    background-color: #e0e4e4;
+}
+.blogh1{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+    color: #21282E;
+}
+.blogh2{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: normal;
+    color: #21282E;
+    font-size: 32px;
+}
+.Blog{
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: normal;
+    color: #21282E;
+    margin: 0 0 20px 0;
+    font-size: 25px;
+    display: block;
+}
+.BlogPara{
+    color: #717275;
+    font-size: 20px;
+    font-weight: 300;
 }
