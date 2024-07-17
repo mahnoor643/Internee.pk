@@ -160,3 +160,47 @@
     color: #4A5056;
     margin-bottom: 30px;
 }
+.strong{
+    font-weight: bold;
+}
+
+/* carousel */
+.carouselDiv{
+    background-color: #43a724;
+    padding: 10px;
+    border-radius: 15px;
+}
+.carouselTxt{
+    display:inline-block;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: normal;
+    color: white;
+}
+.carouselBg{
+    background-color: white;
+    border-radius:12px;
+}
+.carouselCardTitle{
+    font-size: 20px;
+    letter-spacing: -1px;
+    color: #21282E;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+.carouselCardTxt{
+    font-size: 14px;
+    letter-spacing: -1px;
+    color: #21282E;
+    text-align: center;
+}
+.btn-intern{
+    border-radius: 10px;
+    border: none;
+    background-color: #43a724;
+    color: #fff;
+    text-align: center;
+    padding: 7px;
+}
