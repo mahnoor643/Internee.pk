@@ -1,0 +1,38 @@
+.ComSec1 h1{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 500;
+    --tw-text-opacity: 1;
+    color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+.ComSec1 p{
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.ComSec2Div{
+    padding: 10px 0px;
+    border: 2px solid rgb(206, 204, 204);
+    border-radius: 10px;
+}
+.ComSec2Div h2{
+    color: black;
+    font-weight: 500;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+.ComSec2Div p{
+    line-height: 1.625;
+    color: black;
+}
+.text-green-500 {
+    --tw-text-opacity: 1;
+    color: rgb(34 197 94 / var(--tw-text-opacity));
+}
+.w-12 {
+    width: 3rem;
+}
+.h-12 {
+    height: 3rem;
+}
