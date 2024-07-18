@@ -19,3 +19,11 @@ setInterval(changeText, 6000); // Change text every 6 seconds
 
 // Initialize with the first text
 changeText();
+
+
+
+
+
+
+
+

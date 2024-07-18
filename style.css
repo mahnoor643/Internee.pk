@@ -24,13 +24,14 @@
     top: 0;
     left: 0;
 }
+
 .nav-links {
     display: flex;
     align-items: center;
 }
 
 .nav-links a {
-    margin-left: 15px; /* Adjust spacing between links */
+    margin-left: auto; /* Adjust spacing between links */
     text-decoration: none;
     padding: 5px 20px;
     display: inline-block;
@@ -42,6 +43,7 @@
 .webLogo {
     max-height: 50px;
 }
+
 .jobPortalBtn {
     background-color: #43a724;
     border: 2px solid #43a724;
@@ -75,6 +77,60 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+/* Responsiveness */
+@media screen and (max-width: 1024px) {
+    #navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .nav-links a {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .jobPortalBtn, .interneeLoginBtn {
+        min-width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #navbar {
+        padding: 20px;
+    }
+    .nav-links a {
+        font-size: 14px;
+        padding: 10px;
+        text-align: center;
+    }
+    .jobPortalBtn, .interneeLoginBtn {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #navbar {
+        padding: 15px;
+    }
+    .nav-links a {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .jobPortalBtn, .interneeLoginBtn {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
 
 /* Section 1 */
 .aligning{
@@ -298,8 +354,502 @@ div.card:hover {
     font-size: 25px;
     display: block;
 }
+.Blog:hover{
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: normal;
+    color: #717275;
+    margin: 0 0 20px 0;
+    font-size: 25px;
+    display: block;
+}
 .BlogPara{
     color: #717275;
     font-size: 20px;
     font-weight: 300;
+}
+.blogImg{
+    max-height: 272px;
+    max-width: 270px;
+}
+
+@media ((min-width:994px) and (max-width:1282px)) {
+    
+}
+
+/* section4 */
+.dynamic-blocks-top-title {
+    font-family: Inter;
+    font-size: 20px;
+    letter-spacing: -1px;
+    color: #21282E;
+    display: block;
+}
+
+.sec4H {
+    font-size: 48px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    color: #21282E;
+    margin: 0 0 20px 0;
+    display: block;
+    letter-spacing: -2px;
+}
+
+.sec4p {
+    margin-bottom: 30px;
+    line-height: 150%;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+}
+
+.each-listing-image {
+    width: 75px;
+    height: 75px;
+    background: rgba(253, 174, 30, 0.05);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.each-listing-content {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .sec4H {
+        font-size: 36px;
+    }
+
+    .sec4p {
+        font-size: 16px;
+    }
+
+    .each-listing-content {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .each-listing-image {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+/* section5 */
+.each-icon-process-listing{
+    display: flex;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.each-listing-icon{
+    width: 60px;
+}
+.icon-process-listing-line{
+    display: inline-block;
+    position: relative;
+}
+.icon-process-listing-image{
+    border: 1.6427px solid #43a724;
+    border-radius: 13.1416px;
+    height: 60px;
+    width: 60px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.each-icon-process-listing .each-listing-icon .icon-process-listing-line::after {
+    content: "";
+    position: absolute;
+    background-color: #43a724;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: unset;
+    width: 1.6427px;
+    height: 100%;
+    display: inline-block;
+    left: 50%;
+    top: 100%;
+    -moz-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    -webkit-transform: translatex(-50%);
+    transform: translatex(-50%);
+}
+.each-icon-process-listing .icon-process-listing-content h3 {
+    font-size: 18px;
+    letter-spacing: -0.4px;
+    color: #21282E;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: normal;
+    color: #21282E;
+    margin: 0 0 20px 30px;
+    display: block;
+}
+.sec5Div{
+    height: 100%; 
+    width: 50%; 
+    position: absolute;
+    right: 0;
+    overflow: hidden; 
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    z-index: 0; 
+}
+.sec5Img{
+    position: relative;
+    z-index: 1;
+}
+.sec5Content{
+    z-index: 1;
+}
+.sec5Content h2{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: normal;
+    color: #21282E;
+    margin: 0 0 20px 0;
+    display: block;
+    font-size: 48px;
+    letter-spacing: -2px;
+    margin-bottom: 60px;
+}
+
+
+/* section6 */
+.moreThenHalfDiv {
+    height: 100%;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    z-index: 0;
+    background-color: #f0f0f0; /* Add background color for visibility */
+}
+.general-testimonial-container-header-title {
+    display: flex;
+    justify-content: space-between; /* Distributes space between the title and arrows */
+    align-items: center; /* Aligns items vertically in the center */
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+}
+
+.general-testimonial-container-header-title h2 {
+    font-size: 40px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: normal;
+    color: #21282E;
+    display: block;
+    margin: 0;
+}
+
+/* Media Query for small screens */
+@media (max-width: 768px) {
+    .general-testimonial-container-header-title {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: flex-start; /* Align items to the start */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .general-testimonial-container-header-title h2 {
+        font-size: 30px; /* Adjust font size for smaller screens */
+        text-align: center; /* Center the text */
+    }
+
+    .general-testimonial-container-header-arrows {
+        width: 100%; /* Make arrows container full width */
+        display: flex;
+        justify-content: center; /* Center the arrows */
+        margin-top: 10px; /* Add some space above the arrows */
+    }
+
+    .testimonial-nav-arrows {
+        display: flex;
+        justify-content: space-between;
+        width: 120px; /* Adjust the width as necessary */
+    }
+}
+
+.testimonial-each-card {
+    background: #21282E;
+    box-shadow: 0px 8px 24px rgba(208, 208, 208, 0.6);
+    border-radius: 32px;
+    padding: 40px;
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    z-index: 1;
+    width: 483px;
+    min-height: 337px;
+    position: relative;
+    justify-content: center;
+    align-items: stretch;
+    flex: 1 0 40%;
+}
+.testimonial-each-card-top {
+    width: 100%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+    color: white;
+}
+.testimonial-each-card-bottom {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: flex-end;
+    width: 100%;
+}
+.blocquote-source {
+    margin-top: 40px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFCF5C;
+}
+.blocquote-title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.testimonial-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.general-testimonial-container-header-arrows {
+    display: flex;
+    align-items: center;
+    width: auto; /* Adjust the width if necessary */
+    margin-left: auto; /* Pushes the arrows to the right */
+}
+.testimonial-nav-arrows {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.testimonial-nav-arrows a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.testimonial-wrapper {
+    overflow: hidden;
+    width: auto; /* or the desired width */
+}.general-testimonial-container-guarantee {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-left: 70px;
+    margin-top: 40px;
+}
+
+.general-testimonial-container-guarantee-each {
+    width: calc(50% - 50px);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+    color: #21282E;
+}
+
+.general-testimonial-container-guarantee-each-icon {
+    width: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.general-testimonial-container-guarantee-each-content {
+    width: calc(100% - 55px);
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+    color: #21282E;
+}
+
+.general-testimonial-container-guarantee-each-content h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: #000000;
+}
+
+.general-testimonial-container-guarantee-each-content ul li {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+/* Media Query for small screens */
+@media (max-width: 768px) {
+    .general-testimonial-container-guarantee {
+        padding-left: 20px; /* Adjust padding as needed */
+    }
+    
+    .general-testimonial-container-guarantee-each {
+        width: auto;
+        margin-bottom: 20px; /* Add some margin between sections */
+    }
+
+    .general-testimonial-container-guarantee-each-icon,
+    .general-testimonial-container-guarantee-each-content {
+        width: 100%;
+        text-align: left; /* Ensure text alignment */
+    }
+
+    .general-testimonial-container-guarantee-each-content h2 {
+        font-size: 22px; /* Adjust font size for better readability */
+    }
+
+    .general-testimonial-container-guarantee-each-content ul li {
+        font-size: 16px; /* Adjust font size for better readability */
+    }
+}
+
+
+/* footer */
+.site-footer {
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+.footer-main {
+    padding: 40px 0;
+    background-color: #e0e4e4;
+}
+.gen-container.medium-container {
+    max-width: 1200px;
+}
+.gen-container {
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer-main-columns:nth-of-type(1) {
+    width: calc(100% -(240px + 260px + 170px));
+    padding-right: 50px;
+}
+.widget {
+    margin: 0 0 1.5em;
+}
+.text-widget{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+    color: #21282E;
+}
+.footer-main .footer-main-wrapper .footer-main-columns:nth-of-type(4) {
+    width: 260px;
+}
+.widget-nav-menu{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+    color: #21282E;
+}
+.footer-main .footer-main-wrapper .footer-main-columns h4 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 170%;
+    color: #21282E;
+    margin: 0 0 20px 0;
+    display: block;
+}
+.menu{
+    padding: 0;
+}
+.menu-company-container{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: -0.3px;
+    color: #21282E;
+}
+.footer-main .footer-main-wrapper .footer-main-columns li {
+    font-size: 16px;
+    color: #4A5056;
+    margin-bottom: 15px;
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+}
+.social-media-container {
+    white-space: nowrap;
+    margin-bottom: 30px;
+}
+.social-media-container .social-media-each {
+    margin-right: 8px;
+}
+.copyright-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #90969D;
+    white-space: nowrap;
+}
+.footer-main .footer-main-wrapper .footer-main-columns a {
+    color: #4A5056;
+    text-align: start;
+    text-decoration: none;
 }
