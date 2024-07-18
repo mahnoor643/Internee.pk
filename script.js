@@ -22,8 +22,29 @@ changeText();
 
 
 
+// Testimonial slider
 
+const testimonials = document.querySelectorAll('.testimonial-each-card');
+const testimonialContent = document.querySelector('.testimonial-content');
+let currentIndex = 0;
 
+function showTestimonials() {
+    const offset = -currentIndex * 50; // Slide by 50% to show two cards
+    testimonialContent.style.transform = `translateX(${offset}%)`;
+}
 
+document.getElementById('nextBtn').addEventListener('click', () => {
+    if (currentIndex < testimonials.length - 2) { // Ensure only two cards are shown at a time
+        currentIndex++;
+    }
+    showTestimonials();
+});
 
+document.getElementById('prevBtn').addEventListener('click', () => {
+    if (currentIndex > 0) {
+        currentIndex--;
+    }
+    showTestimonials();
+});
 
+showTestimonials(); // Initialize with first two testimonials
