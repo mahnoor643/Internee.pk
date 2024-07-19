@@ -36,3 +36,52 @@
 .h-12 {
     height: 3rem;
 }
+
+/* map and form */
+.map{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(5, 5, 5);
+    opacity: 0.4;
+    height: 100%;
+}
+.mapForm {
+    background-color: white;
+    z-index: 3;
+    opacity: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Grey color box shadow */
+}
+
+.mapForm h2{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    font-family: "Inter";
+    font-style: normal;
+}
+.text-sm{
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+.inputForm{
+    color: #666;
+    margin: 3px 0px 3px 0px;
+    padding: 7px;
+}
+.formBtn{
+    background-color: #43a724;
+}
+.formBtn:hover{
+    background-color: #1d7c00;
+}
+.formTxt{
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin-top: 1rem;
+    color: rgb(107 114 128);
+}
