@@ -105,14 +105,14 @@
         <div class="container d-flex justify-content-end">
             <div class="col-md-4 col-lg-4 col-sm-12 mt-5 mb-5 p-4 rounded mapForm">
                     <h2>Project in mind? Let’s Talk 🚀</h2>
-                    <form action="">
+                    <form action="" onsubmit="alert('Our team will contact you soon!')">
                         <label class="text-sm pt-3" for="email">Email</label>
-                        <input type="email" class="w-100 bg-white border border-gray-300 rounded inputForm" name="" id="">
+                        <input type="email" required class="w-100 bg-white border border-gray-300 rounded inputForm" name="" id="">
                         <label class="text-sm pt-3" for="phone">Phone Number</label>
-                        <input type="number" class="w-100 bg-white border border-gray-300 rounded inputForm" name="" id="">
+                        <input type="number" required class="w-100 bg-white border border-gray-300 rounded inputForm" name="" id="">
                         <label class="text-sm pt-3" for="msg">Message</label>
-                        <textarea class="w-100 bg-white border border-gray-300 rounded inputForm" name="" rows="3" id=""></textarea>
-                        <button class="formBtn w-100 text-white border-0 py-2 px-6 rounded text-lg">Send</button>
+                        <textarea required class="w-100 bg-white border border-gray-300 rounded inputForm" name="" rows="3" id=""></textarea>
+                        <button class="formBtn w-100 text-white border-0 py-2 px-6 rounded text-lg" type="submit">Send</button>
                     </form>
                     <p class="formTxt">After your message submission, Our team will respond 1-2 Business days</p>
             </div>
