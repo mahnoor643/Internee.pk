@@ -187,6 +187,15 @@
     align-items: center;
 }
 
+/* Target phones (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+    .para{
+        text-align: center;
+    }
+    .sec1PicDiv{
+        display: none;
+    }
+}
 
 /* section2 */
 .section2Icon {
@@ -219,7 +228,12 @@
 .strong{
     font-weight: bold;
 }
-
+/* Target phones (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+    .sec2heading{
+        text-align: center;
+    }
+}
 /* carousel */
 .carouselDiv{
     background-color: #43a724;
@@ -271,6 +285,12 @@
     letter-spacing: -0.3px;
     color: #FFFFFF;
 }
+/* Target phones (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+    .carouselDiv{
+        display: none;
+    }
+}
 
 /* Section3 */
 .sec3Para{
@@ -309,6 +329,7 @@
     line-height: 1.5;
     border-radius: .25rem;
 }
+
 
 /* cards */
 .cardTitle{
